@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- El doctype indica quin tipus de document és aquest ficher, en aquest cas html5 -->
+<html>
+<!-- La etiqueta html és la etiqueta pare de tot el document dins d'aquesta etiqueta
+tenim dos etiquetes filles, que el head que és per les metadades, i el body on aniran els elements que es mostraran per pantalla-->
+    <head>
+        <meta charset="UTF-8">
+        <title>FCB news</title>
+    </head>
+    <!--Aquí fem una etiqueta style, on modifiquem el css dels h2-->
+    <style>
+        h2 {
+          background-color: rgb(255, 141, 88);
+          color: rgb(94, 39, 39);
+        }
+    </style>
+    <body>
+        <!-- Els h'n' serveixen pels tituls, a més gran és el valor n menys importancia tenen dins del document, per tant més petita serà la font amb la que printa el titul-->
+        <h1 style="color: blue; text-align: center;">FCB - News</h1>
+        <h2>Barça - Celta: Una remuntada per emmarcar (3-2)</h2>
+        <h3>El FC Barcelona per primer cop a la història ha estat capaç de capgirar un 2-0 quan ja s'havien complert 80 minuts de duel</h3>
+        <p>L'Estadi Olímpic Lluís Companys ja té el seu primer record èpic. I és que 24 hores després, els culers encara s'estan fregant els ulls amb la màgica remuntada contra el Celta. Després d'un partit entrebancat, el Barça va capgirar el marcador amb set minuts d'efectivitat total. Un fet que mai havia succeït passat el minut 80 de partit, ja que la remuntada no va ser cuinada a foc lent, sinó que amb una flamarada, en un tres i no res, el marcador va passar del 0-2 al 3-2.</p>
+        <p>Tot semblava indicar que el Celta assaltaria l'Estadi Olímpic per endur-se els tres punts i que firmaria la primera derrota blaugrana de la temporada. Amb el gol de Larsen al minut 19, els homes de Xavi Hernández es mantenien en desavantatge en el marcador i, arribats al minut 76 de partit, amb un gol de Douvikas, semblava que el duel estava vist per sentència a favor del conjunt gallec.</p>
+        <p>Però al minut 81, va començar la gesta culer. Lewandowski amb el primer gol va revifar els ànims. Amb el segon, va reactivar l'afició i Cancelo, amb el tercer, va fer esclatar l'eufòria a la graderia i a la banqueta culer, en firmar la primera gran remuntada de la temporada.</p>
+        <img src="./Images/barça2.jpg" alt="Escut del barça"/>
+        <!-- la etiqueta img, té dos atributs, el source, que indica la ruta de la imatge, i alternative text, alt, que explica que és l'imatge-->
+        <h4>Fonts de la notícia</h4>
+        <ol>
+            <!-- ol és ordered list, tots els ítems de la llista tindran un número assignat-->
+            <li><a href="https://www.fcbarcelona.cat/ca/futbol/primer-equip/noticies/3698710/una-remuntada-per-emmarcar">URL de la notícia</a></li>
+            <!-- dins de li, que indica un ítem de la llista, tenim 'a', a indica que és un link, on la ruta la indiquem al atribut 'href' -->
+            <li><a href="https://www.fcbarcelona.cat/ca/futbol/primer-equip/noticies/">Més notícies del fcb</a></li>
+            <li><a href="https://www.fcbarcelona.cat/ca/futbol/primer-equip/calendari">Calendari temporada 2023</a></li>
+            <li><a href="./Pages/taules.html">Taules</a></li>
+        </ol>
+        <h4>Altres notícies d'interés</h4>
+        <ul>
+            <!-- Similar a ol, però aquesta llista està desordenada, per tant no assigna nombres als ítems-->
+            <li>Xavi: “Tenim una plantilla versàtil”</li>
+            <li>Xavi Hernández ha citat 20 culers per disputar la jornada 7 de la Lliga amb l'objectiu de seguir a la primera posició</li>
+            <li>El FC Barcelona visitarà el conjunt mallorquí per defensar la primera posició a la taula classificatòria en una setmana de doble compromís de Lliga</li>
+        </ul>
+    </body>
+</html>

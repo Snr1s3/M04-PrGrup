@@ -1,0 +1,24 @@
+h1{
+    color: rgb(33, 165, 121);
+    font-weight: bold;
+    text-align: center;
+}
+table, th, td{
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+caption{
+    color: rgb(179, 39, 179);
+    padding-bottom: 20px;
+    font-size: 30px
+}
+thead{
+    background-color: aquamarine;
+}
+th, td{
+    width: 150px;
+    text-align: center;
+}

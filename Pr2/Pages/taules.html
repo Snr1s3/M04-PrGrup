@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FCB Taules</title>
+        <link rel="stylesheet" href="../CSS/styleCSS.css">
+    </head>
+    <!--A la etiqueta style hem introduit un id per identificar l'enllaç que et porta a la pàgina inicial.-->
+    <style>
+        #Tornar{
+           
+            padding-top: 20px;
+            font-size: 30px ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+
+    </style>
+    <body>
+        <h1>Els partits de la Temporada 2023-2024</h1>
+        <table>
+            <!--L'eqtiqueta caption serveix pel titul de la taula-->
+            <caption>Propers partits</caption>
+            <!--Em separat la taula en el head 'thead' i el body 'tbody'-->
+            <thead>
+                <!--Aquí hem creat la capçelera de la taula, tr crea una fila, th una columna amb negreta, i td una columna sense negreta-->
+                <tr>
+                    <th>Data</th>
+                    <th>Equip Local</th>
+                    <th>Equip Visitant</th>
+                </tr>    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>23/08/2023</td>
+                    <td>FC.Barcelona</td>
+                    <td>Osasuna</td>
+                </tr>
+                <tr>
+                    <td>09/12/2023</td>
+                    <td>Mallorca</td>
+                    <td>FC.Barcelona</td>
+                </tr>
+                <tr>
+                    <td>11/11/2023</td>
+                    <td>Girona</td>
+                    <td>FC.Barcelona</td>
+                </tr>
+            </tbody>    
+        </table>
+        <li><a id="Tornar" href="../pagina.html">Torna</a></li>
+    </body>
+</html>
