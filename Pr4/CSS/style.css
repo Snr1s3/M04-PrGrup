@@ -1,0 +1,66 @@
+/*Configuració del color del formulari*/
+div {
+    padding: px 0;
+    background-color: #e4c776;
+}
+/*Configuració del H1*/
+h1 {
+    color: #f09713;
+    text-align: center;
+
+}
+
+/*Configuració del div on està tot */
+#DivBase {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4px solid rgb(3, 3, 3);
+    height: 100%;
+
+}
+/*Configuració general dels camps del formulari*/
+input[type=text],
+input[type=number],
+select,
+textarea {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid #fac001;
+    border-radius: 4px;
+    resize: vertical;
+    outline: none;
+}
+
+/*Configuració dels botons*/
+.button {
+    margin-top: 50px;
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/*Configuració del hover del botó*/
+.button:hover {
+    background-color: orange;
+}
+/*Configuració separadad de cada camp del formulari*/
+label {
+    padding: 13px 15px 16px 0;
+    display: inline-block;
+}
+
+
+input[type=text]:focus,input[type=number] {
+    border: 4px solid #f09713;
+}
+
+textarea:focus {
+    background-color: #f09713; 
+}
+
+#nom,
+#mail {
+    margin-left: 59px;
+}

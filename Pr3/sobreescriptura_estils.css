@@ -1,0 +1,53 @@
+/*1. color general de la lletra negra*/
+body {
+    color: #000000 !important
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+#titol-pagina {
+    background-color: white;
+    color: darkgrey;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+.paragraf2 strong,
+.paragraf1 strong {
+    color: #0d942a !important;
+    text-decoration: underline;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 a {
+    font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+div > footer {
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+/*
+Quins elements passen a veure’s diferent i quins
+es continuen veient tal com tu havies definit? Per què?
+
+Com ho faries perquè tots els elements
+es continuïn veient tal com es veia abans
+d’invertir l’ordre de càrrega? Proposa un codi CSS.
+
+Resposta:
+
+Principalment, veiem que el body canvia el color, també canvia el paragraf2,
+en concret el que hi ha dins de l'etiqueta strong, passa de blau a verd,
+i és perquè al tenir la mateixa jerarquia l'últim en carrega és l'estil que es visualitza.
+
+Això ho veiem clar en el paragraf1 etiqueta strong, encara que es carrega més tard el color rosa segueix sent verd,
+això es deu al fet que hem definit aquest estil dins d'una classe, per tant, té prioritat encara que no sigui l'últim en carrega.
+
+Per solucionar-ho tindríem o que posar un id, per tant, un nivell més de jerarquia, o posar els estils que es vulguin visualitzar al fitxer css que es carregui últim.
+Com a la pràctica no podem modificar el css inicial, posarem l'atribut !important, això li donarà el màxim nivell de jerarquia i,
+per tant, és l'estil que és veura indiferentment de quin es processi abans.
+
+*/
